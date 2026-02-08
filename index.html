@@ -18,14 +18,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Characters
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Harry Potter</a></li>
+                  <li><a class="dropdown-item" href="detail.html">Harry Potter</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Hermione Granger</a></li>
                   <li><hr class="dropdown-divider"></li>
@@ -37,15 +37,50 @@
                 </ul>
               </li>
               <li class="nav-item"></li>
-              <a class="nav-link" aria-current="page" href="#">Add Character</a>
+              <a class="nav-link" aria-current="page" href="new-character-fourm.html">Add Character</a>
             </li>
               <li class="nav-item"></li>
-              <a class="nav-link" aria-current="page" href="#">About Us</a>
+              <a class="nav-link" aria-current="page" href="about.html">About Us</a>
             </li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <div class="container my-5">
+        <div class="row align-items-center g-4">
+      
+          <!-- LEFT: IMAGE -->
+          <div class="col-12 col-md-6 text-center">
+            <img
+              src="Images/SearchIon_HomePage.png"
+              alt="Character search illustration"
+              class="img-fluid"
+              style="max-width: 250px;"
+            />
+          </div>
+      
+          <!-- RIGHT: TEXT + SEARCH -->
+          <div class="col-12 col-md-6">
+            <h2 class="fw-bold mb-3">Search Character</h2>
+            <p class="text-muted mb-4">
+              Explore characters from the wizarding world. Search by name, house, or abilities.
+            </p>
+      
+            <div class="input-group shadow-sm">
+              <span class="input-group-text bg-white border-end-0">🔎</span>
+              <input
+                id="characterSearch"
+                type="text"
+                class="form-control border-start-0"
+                placeholder="Search characters..."
+                aria-label="Search characters"
+              />
+            </div>
+          </div>
+      
+        </div>
+      </div>
 
       <div class="container my-5">
 
